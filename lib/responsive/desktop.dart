@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsiveboilerplate/constants/appcommonutils.dart';
+import 'package:responsiveboilerplate/view/homepage.dart';
 
 
 class DesktopScaffold extends StatefulWidget {
@@ -12,13 +12,8 @@ class DesktopScaffold extends StatefulWidget {
 class _DesktopScaffoldState extends State<DesktopScaffold> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Row(
-          children: [
-           AppCommonUtils.myDrawer(context)
-          ],
-        ),
-
+    return const Scaffold(
+        body: HomePage()
     );
   }
 }

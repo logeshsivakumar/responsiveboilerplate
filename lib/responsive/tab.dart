@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsiveboilerplate/view/homepage.dart';
 
 
 
@@ -13,7 +14,7 @@ class _TabScaffoldState extends State<TabScaffold> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-
+      body: HomePage(),
     );
   }
 }
