@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsiveboilerplate/constants/appcommonutils.dart';
+import 'package:responsiveboilerplate/view/homepage.dart';
 
 
 class MobileScaffold extends StatefulWidget {
@@ -12,10 +12,8 @@ class MobileScaffold extends StatefulWidget {
 class _MobileScaffoldState extends State<MobileScaffold> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar:AppCommonUtils.commonAppBar,
-      backgroundColor: AppCommonUtils.defaultScaffoldColor,
-      drawer:AppCommonUtils.myDrawer
+    return const Scaffold(
+        body: HomePage(),
     );
   }
 }

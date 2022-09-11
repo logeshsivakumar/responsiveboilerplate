@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsiveboilerplate/constants/appcommonutils.dart';
+
 
 
 class TabScaffold extends StatefulWidget {
@@ -12,10 +12,8 @@ class TabScaffold extends StatefulWidget {
 class _TabScaffoldState extends State<TabScaffold> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar:AppCommonUtils.commonAppBar,
-        backgroundColor: AppCommonUtils.defaultScaffoldColor,
-        drawer:AppCommonUtils.myDrawer
+    return const Scaffold(
+
     );
   }
 }
